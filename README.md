@@ -28,8 +28,8 @@ A Jump Box allows for greater control over network access.  In order to gain acc
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
 - Filebeats watch and gather logs and forwards any changes to Elasisearch.  
 - Metricbeat is used for gathering data and metrics and send them to Elastisearch and Kibana
-![Filebeat-Configuration.yml](ELK Project/filebeat-configuration.yml)
-
+![Filebeat-Configuration](ELK Project/filebeat-configuration.yml)
+![filebeat-configuration](config_files/filebeat-configuration.yml)
 The configuration details of each machine may be found below.  Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
