@@ -1,5 +1,5 @@
 ## Automated ELK Stack Deployment
-![filebeat configuration]http://C:\Users\jlgas\Desktop\ELK Project\filebeat-configuration.yml
+![filebeat configuration] http://C:\Users\jlgas\Desktop\ELK Project\filebeat-configuration.yml
 The files in this repository were used to configure the network depicted below.
 
 ![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
