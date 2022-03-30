@@ -36,8 +36,8 @@ The configuration details of each machine may be found below.  Note: Use the [Ma
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.4   | Linux            |
 | Web-1    | Server   | 10.0.0.9   | Linux            |                  
-| Web-2      Server     10.0.0.10    Linux            |
-| ELK-VM    |Server     10.1.0.4      Linux            |
+| Web-2    |  Server  | 10.0.0.10  |  Linux           |
+| ELK-VM   |Server    | 10.1.0.4   |  Linux           |
 
 ### Access Policies
 
