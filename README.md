@@ -28,7 +28,8 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Filebeats watch and gather logs and forwards any changes to Elasisearch.  
 - Metricbeat is used for gathering data and metrics and send them to Elastisearch and Kibana
 
-![filebeat-configuration](Configuration-Files/filebeat-configuration.yml)
+![Filebeat-Configuration](Configuration-Files/filebeat-configuration.yml)
+![Filebeat-Playbook](Configuration-Files/filebeat-playbook.yml)
 
 The configuration details of each machine may be found below.  Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
