@@ -35,9 +35,9 @@ The configuration details of each machine may be found below.  Note: Use the [Ma
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.4   | Linux            |
-| Web-1      Server  | 10.0.0.9     Linux  |            |                  
-| Web-2      Server   10.0.0.10    |    Linux              |
-| ELK-VM    |Server       10.1.0.4          Linux       |
+| Web-1    | Server   | 10.0.0.9   | Linux            |                  
+| Web-2      Server     10.0.0.10    Linux            |
+| ELK-VM    |Server       10.1.0.4   Linux            |
 
 ### Access Policies
 
@@ -55,8 +55,8 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | 10.0.0.8   |
-|  Web1,2  |  No                 |  Web LB 20.24.68.183 |
+| Jump Box | Yes                 | 10.0.0.8             |
+|  Web1,2  |  No                 | Web LB 20.24.68.183  |
 |          |                     |                      |
 
 ### Elk Configuration
