@@ -65,7 +65,7 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | Yes                 | 10.0.0.8             |
-|  Web1,2  |  No                 | Web LB 20.24.68.183  |
+|  Web 1,2 |  No                 | Web LB 20.24.68.183  |
 |          |                     |                      |
 
 ### Elk Configuration
