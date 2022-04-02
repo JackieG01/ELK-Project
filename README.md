@@ -77,7 +77,7 @@ The main advantage of automating the installation process is that we could deplo
 The playbook implements the following tasks:
 
 - ... Install Docker.io and pip3
-- ... Download and configure elk docker container
+- ... Download and configure ELK docker container
 - ... Increases VM memory
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
