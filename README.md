@@ -70,11 +70,11 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+
 The main advantage of automating the installation process is that we could deploy several servers quick and easy without having to physically touch each server.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+
 - ... Install Docker.io and pip3
 - ... Download and configure elk docker container
 - ... Increases VM memory
@@ -103,7 +103,6 @@ SSH into the control node and follow the steps below:
 - Update the configuration files to include the Private IP of the ELK-Server to the ElasticSearch and Kibana Sections of the Configuration File.
 - Run the playbook, and navigate to ELK-Server-PublicIP:5601/app/kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook?
 - elk-playbook.yml - used to install ELK Server.  
 - Filebeat-playbook.yml - Used to install and configure Filebeat on ELK Server and DVWA servers
