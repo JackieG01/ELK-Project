@@ -93,8 +93,8 @@ We have installed the following Beats on these machines:
 - Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat watches for log files and also collect log events.
-- Metricbeat will record metrics and data from the operating system and from services running on the server.  
+- Filebeat watches for log files and also collect log events and data about the file system.
+- Metricbeat will record metrics and data from the operating system and from services running on the server, such as uptime.  
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
