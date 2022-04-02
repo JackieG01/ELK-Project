@@ -81,7 +81,8 @@ The playbook implements the following tasks:
 - ... Increases VM memory
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-![image](https://user-images.githubusercontent.com/94577797/161356528-27d377f5-5714-4893-9175-0ec06be6f07e.png)
+![image](https://user-images.githubusercontent.com/94577797/161396703-e1d926f9-af7d-404b-83ad-bf2212487d1f.png)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
