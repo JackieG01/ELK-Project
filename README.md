@@ -39,12 +39,12 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.  Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.8   | Linux            |
-| Web-1    | Server   | 10.0.0.9   | Linux            |                  
-| Web-2    |  Server  | 10.0.0.10  |  Linux           |
-| ELK-VM   |Server    | 10.1.0.4   |  Linux           |
+| Name     | Function | IP Address | Operating System       |
+|----------|----------|------------|------------------      |
+| Jump Box | Gateway  | 10.0.0.8   | Linux(Ubuntu 18.04 LTS)|
+| Web-1    | Server   | 10.0.0.9   | Linux(Ubuntu 18.04 LTS)|                 
+| Web-2    | Server   | 10.0.0.10  | Linux(Ubuntu 18.04 LTS)|
+| ELK-VM   | Server   | 10.1.0.4   | Linux(Ubuntu 18.04 LTS)|
 
 ### Access Policies
 
@@ -66,20 +66,23 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | Yes                 | 10.0.0.8             |
-|  Web 1,2 |  No                 | Web LB 20.24.68.183  |
+| Web 1,2  | No                  | Web LB 20.24.68.183  |
 |          |                     |                      |
 
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - _TODO: What is the main advantage of automating configuration with Ansible?_
+The main advantage of automating the installation process is that we could deploy several servers quick and easy without having to physically touch each server.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- ... Install Docker.io and pip3
+- ... Download and configure elk docker container
+- ... Increases VM memory
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+![image](https://user-images.githubusercontent.com/94577797/161356528-27d377f5-5714-4893-9175-0ec06be6f07e.png)
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
