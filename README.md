@@ -122,4 +122,7 @@ SSH into the control node and follow the steps below:
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on? /etc/ansible/hosts is where you want each to be installed ELK-Servers or Filebeat _
 - _Which URL do you navigate to in order to check that the ELK server is running?
 http://publicip(elkserver):5601
+
+References
+Filebeat:  Lightweight Log Analysis & Elasticsearch.  (n.d).  Retrieved March 25, 2021 from https://www.elastic.co/beats/filebeat Metricbeat:  Lightweight Shipper for Metrics.  (n.d).  Retrieved March 25, 2021, from https://www.elastic.co/beats/metricbeat 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
