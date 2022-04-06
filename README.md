@@ -113,8 +113,7 @@ SSH into the control node and follow the steps below:
 - Update the configuration files to include the Private IP of the ELK-Server to the ElasticSearch and Kibana Sections of the Configuration File.
 - Run the playbook, and navigate to ELK-Server-PublicIP:5601/app/kibana to check that the installation worked as expected.
 
-- _Which file is the playbook?
-- elk-playbook.yml - used to install ELK Server.  
+- _Which file is the playbook?  elk-playbook.yml - used to install ELK Server.  
 - Filebeat-playbook.yml - Used to install and configure Filebeat on ELK Server and DVWA servers
 - metricbeat-playbook.yml - Used to install and configure Metricbeat on ELK Servers and DVWA servers
 - Where do you copy it? /etc/ansible/
